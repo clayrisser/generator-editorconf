@@ -1,7 +1,7 @@
 {
-  "name": "generator-github-project",
+  "name": "generator-editorconfig",
   "version": "0.0.1",
-  "description": "Yeoman generator for GitHub projects",
+  "description": "Yeoman generator for editorconfig",
   "keywords": [
     "yeoman-generator",
     "generator",
@@ -22,17 +22,18 @@
   "scripts": {
     "build": "npm run clean && babel src -d generators/app",
     "clean": "rm -rf demo generators/*/*.js",
-    "link": "npm link && npm link generator-github-project",
+    "link": "npm link && npm link generator-editorconfig",
     "lint": "eslint ./",
     "lint:fix": "eslint --fix ./",
     "prepublish": "npm run build",
-    "start": "npm run clean && npm run lint && npm run build && yo --destination=demo github-project",
-    "unlink": "npm unlink generator-github-project"
+    "start": "npm run clean && npm run lint && npm run build && yo --destination=demo editorconfig",
+    "unlink": "npm unlink generator-editorconfig"
   },
   "dependencies": {
     "babel-polyfill": "^6.26.0",
+    "lodash": "^4.17.5",
     "yeoman-generator": "^1.0.0",
-    "yo-base-prompts": "0.0.5",
+    "yo-base-prompts": "0.1.0",
     "yo-option-or-prompt": "0.0.5"
   },
   "devDependencies": {
@@ -59,9 +60,9 @@
     ]
   },
   "author": {},
-  "homepage": "https://github.com/jamrizzi/generator-github-project",
+  "homepage": "https://github.com/codejamninja/generator-editorconfig",
   "license": "MIT",
-  "repository": "https://github.com/jamrizzi/generator-github-project",
+  "repository": "https://github.com/codejamninja/generator-editorconfig",
   "eslintIgnore": [
     "generators",
     "demo"
