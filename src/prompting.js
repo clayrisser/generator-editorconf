@@ -5,9 +5,23 @@ export default async function prompting(yo) {
   const destination = await yoBasePrompts.destinationPrompt();
   const { languages } = await yo.optionOrPrompt([
     {
-      type: 'input',
+      type: 'checkbox',
       name: 'languages',
       message: 'Languages:',
+      choices: [
+        {
+          name: 'JavaScript',
+          value: 'javascript'
+        },
+        {
+          name: 'Make',
+          value: 'make'
+        },
+        {
+          name: 'Python',
+          value: 'python'
+        }
+      ],
       default: ['javascript']
     }
   ]);

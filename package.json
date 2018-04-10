@@ -1,6 +1,6 @@
 {
   "name": "generator-editorconf",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "🎩 Yeoman generator for editorconfig",
   "keywords": [
     "yeoman-generator",
