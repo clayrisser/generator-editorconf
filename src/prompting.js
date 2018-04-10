@@ -1,10 +1,8 @@
 import YoBasePrompts from 'yo-base-prompts';
 
 export default async function prompting(yo) {
-  const { destinationPrompt } = new YoBasePrompts(yo);
-  const { destination } = await destinationPrompt({
-    destination: true
-  });
+  const yoBasePrompts = new YoBasePrompts(yo);
+  const destination = await yoBasePrompts.destinationPrompt();
   const { languages } = await yo.optionOrPrompt([
     {
       type: 'input',

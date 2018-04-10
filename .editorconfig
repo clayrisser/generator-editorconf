@@ -21,3 +21,6 @@ trim_trailing_whitespace = false
 [Makefile]
 charset = utf-8
 indent_style = tab
+
+[_editorconfig]
+insert_final_newline = false
