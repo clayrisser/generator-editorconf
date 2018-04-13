@@ -2,7 +2,10 @@ import YoBasePrompts from 'yo-base-prompts';
 
 export default async function prompting(yo) {
   const yoBasePrompts = new YoBasePrompts(yo);
-  const destination = await yoBasePrompts.destinationPrompt();
+  const { destination } = await yoBasePrompts.prompt({
+    name: true,
+    destination: true
+  });
   const { languages } = await yo.optionOrPrompt([
     {
       type: 'checkbox',
