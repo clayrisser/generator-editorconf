@@ -1,6 +1,6 @@
 {
   "name": "generator-editorconf",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "🎩 Yeoman generator for editorconfig",
   "keywords": [
     "yeoman-generator",
@@ -30,7 +30,7 @@
     "unlink": "npm unlink generator-editorconf"
   },
   "dependencies": {
-    "babel-polyfill": "^6.26.0",
+    "idempotent-babel-polyfill": "0.0.2",
     "lodash": "^4.17.5",
     "yeoman-generator": "^1.0.0",
     "yo-base-prompts": "^0.1.1",
