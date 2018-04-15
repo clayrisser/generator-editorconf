@@ -2,6 +2,7 @@
 
 [![NPM](https://img.shields.io/npm/v/generator-editorconf.svg?style=flat-square)](https://www.npmjs.com/package/generator-editorconf)
 [![NPM](https://img.shields.io/npm/dt/generator-editorconf.svg?style=flat-square)](https://www.npmjs.com/package/generator-editorconf)
+[![Read the Docs](https://img.shields.io/readthedocs/pip.svg?style=flat-square)](https://generator-github-project.jamrizzi.com/)
 [![GitHub stars](https://img.shields.io/github/stars/codejamninja/generator-editorconf.svg?style=social&label=Stars)](https://github.com/codejamninja/generator-editorconf)
 
 > 🎩 Yeoman generator for editorconfig
