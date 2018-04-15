@@ -12,8 +12,15 @@ Please ★ this repo if you found it useful ★ ★ ★
 ## Features
 
 * JavaScript support
+* GoLang support
 * Make support
 * Python support
+* Ruby support
+
+
+## Documentation
+
+Read the [complete documentation](https://generator-editorconf.codejam.ninja)
 
 
 ## Installation

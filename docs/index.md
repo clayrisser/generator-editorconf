@@ -10,8 +10,10 @@ Please ★ this repo if you found it useful ★ ★ ★
 # Features
 
 * JavaScript support
+* GoLang support
 * Make support
 * Python support
+* Ruby support
 
 
 # Installation
