@@ -8,3 +8,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [0.0.1] - 2018-02-09
 ### Added
 - Initial release
+
+## [0.2.0] - 2018-04-15
+### Added
+- GoLang support
+- Ruby support
+- HTML/CSS support

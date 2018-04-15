@@ -1,22 +1,37 @@
 {
   "name": "generator-editorconf",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "🎩 Yeoman generator for editorconfig",
+  "homepage": "https://github.com/codejamninja/generator-editorconf",
   "keywords": [
     "yeoman-generator",
     "generator",
     "yo",
     "yeoman",
-    "git",
-    "github",
-    "readme",
-    "changelog",
-    "project",
-    "license",
-    "contributing"
+    "editorconf",
+    "editorconfig",
+    "node",
+    "nodejs",
+    "boilerplate"
   ],
+  "bugs": {
+    "url": "https://github.com/codejamninja/generator-editorconf/issues",
+    "email": "jam@codejam.ninja"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Jam Risser",
+    "email": "jam@codejam.ninja",
+    "url": "https://codejam.ninja"
+  },
   "main": "generators/app/index.js",
-  "files": ["generators"],
+  "files": [
+    "generators"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codejamninja/generator-editorconf"
+  },
   "scripts": {
     "build": "npm run clean && babel src -d generators/app",
     "clean": "rm -rf demo generators/*/*.js",
@@ -25,15 +40,14 @@
     "lint": "eslint ./",
     "lint:fix": "eslint --fix ./",
     "prepublish": "npm run build",
-    "start":
-      "npm run clean && npm run lint && npm run build && yo --destination=demo editorconf",
+    "start": "npm run clean && npm run lint && npm run build && yo --destination=demo editorconf",
     "unlink": "npm unlink generator-editorconf"
   },
   "dependencies": {
-    "idempotent-babel-polyfill": "0.0.3",
+    "idempotent-babel-polyfill": "0.1.1",
     "lodash": "^4.17.5",
     "yeoman-generator": "^1.0.0",
-    "yo-base-prompts": "^0.1.5",
+    "yo-base-prompts": "^0.1.6",
     "yo-option-or-prompt": "^0.1.2"
   },
   "devDependencies": {
@@ -46,22 +60,13 @@
     "eslint-plugin-import": "^2.8.0",
     "yo": "^2.0.0"
   },
-  "babel": {
-    "presets": [
-      [
-        "env",
-        {
-          "targets": {
-            "node": "4"
-          }
-        }
-      ],
-      "stage-2"
-    ]
-  },
-  "author": {},
-  "homepage": "https://github.com/codejamninja/generator-editorconf",
-  "license": "MIT",
-  "repository": "https://github.com/codejamninja/generator-editorconf",
-  "eslintIgnore": ["generators", "demo"]
+  "eslintIgnore": [
+    "demo",
+    "docs",
+    "env",
+    "generators"
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  }
 }
