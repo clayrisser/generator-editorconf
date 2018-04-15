@@ -16,17 +16,17 @@
     "contributing"
   ],
   "main": "generators/app/index.js",
-  "files": [
-    "generators"
-  ],
+  "files": ["generators"],
   "scripts": {
     "build": "npm run clean && babel src -d generators/app",
     "clean": "rm -rf demo generators/*/*.js",
+    "docs": "make serve",
     "link": "npm link && npm link generator-editorconf",
     "lint": "eslint ./",
     "lint:fix": "eslint --fix ./",
     "prepublish": "npm run build",
-    "start": "npm run clean && npm run lint && npm run build && yo --destination=demo editorconf",
+    "start":
+      "npm run clean && npm run lint && npm run build && yo --destination=demo editorconf",
     "unlink": "npm unlink generator-editorconf"
   },
   "dependencies": {
@@ -63,8 +63,5 @@
   "homepage": "https://github.com/codejamninja/generator-editorconf",
   "license": "MIT",
   "repository": "https://github.com/codejamninja/generator-editorconf",
-  "eslintIgnore": [
-    "generators",
-    "demo"
-  ]
+  "eslintIgnore": ["generators", "demo"]
 }

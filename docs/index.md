@@ -1,5 +1,3 @@
-# generator-editorconf
-
 [![NPM](https://img.shields.io/npm/v/generator-editorconf.svg?style=flat-square)](https://www.npmjs.com/package/generator-editorconf)
 [![NPM](https://img.shields.io/npm/dt/generator-editorconf.svg?style=flat-square)](https://www.npmjs.com/package/generator-editorconf)
 [![GitHub stars](https://img.shields.io/github/stars/codejamninja/generator-editorconf.svg?style=social&label=Stars)](https://github.com/codejamninja/generator-editorconf)
@@ -9,61 +7,61 @@
 Please ★ this repo if you found it useful ★ ★ ★
 
 
-## Features
+# Features
 
 * JavaScript support
 * Make support
 * Python support
 
 
-## Installation
+# Installation
 
 ```sh
 npm install -g generator-editorconf
 ```
 
 
-## Dependencies
+# Dependencies
 
 * [NodeJS](https://nodejs.org)
 * [Yeoman](http://yeoman.io)
 
 
-## Usage
+# Usage
 
 ```sh
 yo editorconf
 ```
 
 
-## Support
+# Support
 
 Submit an [issue](https://github.com/codejamninja/generator-editorconf/issues/new)
 
 
-## Contributing
+# Contributing
 
 Review the [guidelines for contributing](https://github.com/codejamninja/generator-editorconf/blob/master/CONTRIBUTING.md)
 
 
-## License
+# License
 
 [MIT License](https://github.com/codejamninja/generator-editorconf/blob/master/LICENSE)
 
 [Jam Risser](https://codejam.ninja) © 2018
 
 
-## Changelog
+# Changelog
 
 Review the [changelog](https://github.com/codejamninja/generator-editorconf/blob/master/CHANGELOG.md)
 
 
-## Credits
+# Credits
 
 * [Jam Risser](https://codejam.ninja) - Author
 
 
-## Support on Liberapay
+# Support on Liberapay
 
 A ridiculous amount of coffee ☕ ☕ ☕ was consumed in the process of building this project.
 
