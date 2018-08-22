@@ -9,7 +9,12 @@ trim_trailing_whitespace = true<% if (_.includes(languages, 'golang')) { %>
 
 [*.go]
 charset = utf-8
-indent_size = 4<% } %><% if (_.includes(languages, 'python')) { %>
+indent_size = 4<% } %><% if (_.includes(languages, 'php')) { %>
+
+[*.php]
+charset = utf-8
+indent_size = 4
+insert_final_newline = false<% } %><% if (_.includes(languages, 'python')) { %>
 
 [*.py]
 charset = utf-8
