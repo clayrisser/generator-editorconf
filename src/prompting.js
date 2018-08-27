@@ -13,10 +13,11 @@ export default async function prompting(yo) {
       name: 'languages',
       message: 'Languages:',
       choices: [
-        { name: 'JavaScript', value: 'javascript' },
         { name: 'GoLang', value: 'golang' },
         { name: 'HTML/CSS', value: 'html-css' },
+        { name: 'JavaScript', value: 'javascript' },
         { name: 'Make', value: 'make' },
+        { name: 'PHP', value: 'php' },
         { name: 'Python', value: 'python' },
         { name: 'Ruby', value: 'ruby' }
       ],
@@ -29,6 +30,10 @@ export default async function prompting(yo) {
   }
   if (_.includes(languages, 'python')) {
     languages.push('make');
+    languages = _.uniq(languages);
+  }
+  if (_.includes(languages, 'php')) {
+    languages.push('html-css');
     languages = _.uniq(languages);
   }
   if (_.includes(languages, 'html-css')) {
