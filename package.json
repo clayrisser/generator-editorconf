@@ -1,6 +1,6 @@
 {
   "name": "generator-editorconf",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "🎩 Yeoman generator for editorconfig",
   "homepage": "https://github.com/codejamninja/generator-editorconf",
   "keywords": [
@@ -47,7 +47,7 @@
     "idempotent-babel-polyfill": "0.1.1",
     "lodash": "^4.17.5",
     "yeoman-generator": "^1.0.0",
-    "yo-base-prompts": "^0.1.6",
+    "yo-base-prompts": "^0.1.8",
     "yo-option-or-prompt": "^0.1.2"
   },
   "devDependencies": {
